@@ -25,6 +25,8 @@ public class LoginTest {
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email")).sendKeys("test123@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("xyz");
+		System.out.println("I am done for the day");
+		System.out.println("Thank you!!!!!");
 	}
 	
 	@AfterSuite
